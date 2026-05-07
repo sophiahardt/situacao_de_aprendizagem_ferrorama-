@@ -1,11 +1,60 @@
-.container {
-    display: flex;
-    flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.fundo-tela-login {
-    background-image: url("../assets/img/trem.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.fundo-tela-login,
+.fundo {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/img/trem.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.painel {
+  width: 340px;
+  height: 100vh;
+  background: rgba(90, 90, 90, 0.55);
+  backdrop-filter: blur(2px);
+  padding: 35px;
+}
+
+.logo {
+  width: 130px;
+  height: 85px;
+  background: #2b2114;
+  margin: 0 auto;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  border-radius: 0;
+  padding: 12px;
+}
+
+.btn {
+  border-radius: 0;
+  min-width: 120px;
+}
+
+#mensagem {
+  color: white;
 }
