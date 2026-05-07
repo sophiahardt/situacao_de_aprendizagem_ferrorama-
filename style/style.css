@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo-tela-login {
+    background-image: url("../assets/img/trem.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
