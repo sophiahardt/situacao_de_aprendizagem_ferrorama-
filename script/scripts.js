@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+const form = document.querySelector("loginForm");
 
 form.addEventListener("submit", function (event) {
 
@@ -17,7 +17,11 @@ form.addEventListener("submit", function (event) {
     );
 
     if (formularioValido) {
+
         alert("Funcionário cadastrado com sucesso!");
+
         form.reset();
+
+        window.location.href = "tela-geral-home.html";
     }
 });
