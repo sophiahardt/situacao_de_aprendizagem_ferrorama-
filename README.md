@@ -12,6 +12,7 @@ A identidade visual do Sistema Ferroviário foi desenvolvida de forma colaborati
 
 ### Isabella Balas Rech
 - Responsável por fazer tela de login (tela-login-user.html)
+- Ajudar a fazer as validações em JS
 
 ### André De Quadros Goudinho
 - Criar pastas e arquivos
