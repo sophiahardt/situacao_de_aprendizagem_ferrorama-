@@ -50,3 +50,15 @@ O Update vai ser usado para atualizar status, para marcar falha como resolvida, 
 
 Delete -
 O Delete vai ser usado para remover sensores, para remover trens, para remover relatórios gerados anteriormente, para remover rotas cadastradas, para remover funcionários, etc.
+
+
+
+Fontes de Pesquisa:
+https://programadoresdepre.com.br/o-que-e-crud/
+
+https://www.devmedia.com.br/crud-com-php-pdo/28873
+
+https://devcontratado.com/blog/php/crud-php-mysql
+
+https://blog.geekhunter.com.br/crud/
+
