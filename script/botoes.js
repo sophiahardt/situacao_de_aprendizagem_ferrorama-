@@ -1,8 +1,20 @@
 const botaoCancelar = document.querySelector(".btn-outline-secondary");
 
-botaoCancelar.addEventListener("click", function () {
+if (botaoCancelar) {
+    botaoCancelar.addEventListener("click", function () {
+        const form = document.querySelector("form");
+        if (form) form.reset();
+        window.location.href = "tela-geral-home.html";
+    });
+}
 
-    const form = document.querySelector("form");
+const botaoSair = document.getElementById("linkSair");
 
-    form.reset();
-});
+if (botaoSair) {
+    botaoSair.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        if (confirm("Admin João, você realmente deseja sair do sistema?")) {
+            window.location.href = "index.html"; 
+        }
+    });
+}

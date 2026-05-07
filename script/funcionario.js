@@ -22,6 +22,6 @@ formFuncionario.addEventListener("submit", function (event) {
 
         formFuncionario.reset();
 
-        window.location.href = "tela-geral-home.html";
     }
+    window.location.href = "tela-geral-home.html";
 });
