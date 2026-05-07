@@ -14,6 +14,7 @@ Existem muitos tipos de banco de dados, o mais usado é o relacional, que consis
 Os usuários podem utilizar as quatro funções do CRUD para realizar diferentes tipos de operações em dados presentes em um banco de dados. Essas operações podem ser feitas por meio de código ou por meio de uma interface gráfica do usuário. 
 
 
+
 CREATE 
 
 A função create permite ao usuário criar um novo registro em um banco de dados (em bancos de dados relacionais SQL, a função criar é chamada de INSERT).
@@ -33,4 +34,31 @@ DELETE
 
 A função de deletar permite que os usuários excluam registros do banco de dados que não são mais necessários 
 O DELETE remove registros do banco de dados usando o comando DELETE.
+
+
+
+Como o CRUD vai ser aplicado no contexto do projeto:
+
+Create -
+O create vai ser usando para cadastrar locomotivas, para cadastrar sensores, para fazer o registro automático de dados, para cadastrar usuários, para cadastrar nova rota, etc.
+
+Read -
+O Read vai ser usado para visualizar sensores cadastrados, para visualizar trens cadastrados, para visualizar rotas cadastradas, para visualizar funcionários, para visualizar relatórios, para visualizar localização, etc.
+
+Update -
+O Update vai ser usado para atualizar status, para marcar falha como resolvida, etc.
+
+Delete -
+O Delete vai ser usado para remover sensores, para remover trens, para remover relatórios gerados anteriormente, para remover rotas cadastradas, para remover funcionários, etc.
+
+
+
+Fontes de Pesquisa:
+https://programadoresdepre.com.br/o-que-e-crud/
+
+https://www.devmedia.com.br/crud-com-php-pdo/28873
+
+https://devcontratado.com/blog/php/crud-php-mysql
+
+https://blog.geekhunter.com.br/crud/
 
