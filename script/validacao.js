@@ -38,3 +38,18 @@ form.addEventListener("submit", function (e) {
     mensagem.style.color = "red";
   }
 });
+
+function validarFormulario(nome, cargo, email, telefone) {
+
+    if (
+        nome === "" ||
+        cargo === "Selecione o cargo" ||
+        email === "" ||
+        telefone === ""
+    ) {
+        alert("Preencha todos os campos!");
+        return false;
+    }
+
+    return true;
+}
