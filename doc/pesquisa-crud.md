@@ -29,3 +29,8 @@ UPDATE
 A função de atualização permite modificar os registros existentes no banco de dados. Para isso você vai precisar listar os registros, para aí sim escolher o que quer editar e atualizar. 
 O UPDATE permite alterar dados existentes em um registro, podendo modificar um ou mais campos usando o comando UPDATE.
 
+DELETE
+
+A função de deletar permite que os usuários excluam registros do banco de dados que não são mais necessários 
+O DELETE remove registros do banco de dados usando o comando DELETE.
+
