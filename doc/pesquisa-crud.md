@@ -40,7 +40,13 @@ O DELETE remove registros do banco de dados usando o comando DELETE.
 Como o CRUD vai ser aplicado no contexto do projeto:
 
 Create -
-O create vai ser usando para cadastrar locomotivas, para cadastrar sensores, para fazer o registro automático de dados, para cadastrar usuários, para cadastrar nova rota.
+O create vai ser usando para cadastrar locomotivas, para cadastrar sensores, para fazer o registro automático de dados, para cadastrar usuários, para cadastrar nova rota, etc.
 
 Read -
-O Read vai ser usado para visualizar sensores cadastrados, para visualizar trens cadastrados, para visualizar rotas cadastradas, para visualizar funcionários, para visualizar relatórios.
+O Read vai ser usado para visualizar sensores cadastrados, para visualizar trens cadastrados, para visualizar rotas cadastradas, para visualizar funcionários, para visualizar relatórios, para visualizar localização, etc.
+
+Update -
+O Update vai ser usado para atualizar status, para marcar falha como resolvida, etc.
+
+Delete -
+O Delete vai ser usado para remover sensores, para remover trens, para remover relatórios gerados anteriormente, para remover rotas cadastradas, para remover funcionários, etc.
