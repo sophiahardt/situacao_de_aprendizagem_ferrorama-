@@ -19,3 +19,13 @@ CREATE
 A função create permite ao usuário criar um novo registro em um banco de dados (em bancos de dados relacionais SQL, a função criar é chamada de INSERT).
 O CREATE permite criar novas linhas para registros e preenchê-las com os dados correspondentes a cada atributo, geralmente usando o comando INSERT.
 
+READ
+
+A função de leitura permite que os usuários pesquisem e recuperem registros específicos em uma tabela e leiam seus valores.
+O READ permite consultar dados do banco de dados usando comandos como SELECT, podendo aplicar filtros (WHERE), ordenação (ORDER BY), etc.
+
+UPDATE
+
+A função de atualização permite modificar os registros existentes no banco de dados. Para isso você vai precisar listar os registros, para aí sim escolher o que quer editar e atualizar. 
+O UPDATE permite alterar dados existentes em um registro, podendo modificar um ou mais campos usando o comando UPDATE.
+
