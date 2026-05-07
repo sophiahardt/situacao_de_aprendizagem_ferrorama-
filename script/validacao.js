@@ -15,7 +15,7 @@ form.addEventListener("submit", function (e) {
   }
 
   if (!email.endsWith("@gmail.com")) {
-    mensagem.textContent = "Use um email válido no formato nome@gmail.com";
+    mensagem.textContent = "Informe um email válido no formato nome@gmail.com";
     return;
   }
 
