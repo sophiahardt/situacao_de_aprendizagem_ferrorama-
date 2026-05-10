@@ -58,3 +58,16 @@ body {
 #mensagem {
   color: white;
 }
+
+.botaos-home button {
+    width: 320px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 12px;
+}
