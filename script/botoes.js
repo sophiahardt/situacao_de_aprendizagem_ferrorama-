@@ -1,20 +1,19 @@
-const botaoCancelar = document.querySelector(".btn-outline-secondary");
-
-if (botaoCancelar) {
-    botaoCancelar.addEventListener("click", function () {
-        const form = document.querySelector("form");
-        if (form) form.reset();
-        window.location.href = "tela-geral-home.html";
-    });
+function cancelarFormulario() {
+    form?.reset();
+    redirecionar("tela-geral-home.html");
 }
 
-const botaoSair = document.getElementById("linkSair");
+function sairDoSistema(event) {
+    event.preventDefault();
 
-if (botaoSair) {
-    botaoSair.addEventListener("click", function (event) {
-        event.preventDefault(); 
-        if (confirm("Admin João, você realmente deseja sair do sistema?")) {
-            window.location.href = "index.html"; 
-        }
-    });
+    const confirmarSaida = confirm(
+        "Admin João, você realmente deseja sair do sistema?"
+    );
+
+    if (confirmarSaida) {
+        redirecionar("index.html");
+    }
 }
+
+botaoCancelar?.addEventListener("click", cancelarFormulario);
+botaoSair?.addEventListener("click", sairDoSistema);
