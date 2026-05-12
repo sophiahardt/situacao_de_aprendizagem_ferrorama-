@@ -15,5 +15,13 @@ function sairDoSistema(event) {
     }
 }
 
+function salvarSistema(event) {
+    event.preventDefault();
+
+    form?.reset();
+    redirecionar("index.html");
+}
+
 botaoCancelar?.addEventListener("click", cancelarFormulario);
 botaoSair?.addEventListener("click", sairDoSistema);
+botaoSalvar?.addEventListener("click", salvarSistema);
