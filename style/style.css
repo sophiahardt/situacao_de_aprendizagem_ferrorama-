@@ -61,6 +61,7 @@ body {
 
 .mensagem-bem-vindo {
   padding: 20px;
+  margin-bottom: 2px;
 }
 
 .mensagem-admin-home {
@@ -98,16 +99,37 @@ body {
 .botaos-home ion-icon {
   font-size: 1.8rem;
   min-width: 35px;
-
   display: flex;
   justify-content: center;
 }
 
 .container-home {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  padding: 30px;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cards-informativo-cima {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-top: 0;
+}
+
+.card-cima img {
+  padding: 8px;
+  max-width: 380px; 
+  width: 100%;    
+  height: auto;
+}
+
+.mapa-home img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
 }
 
 
