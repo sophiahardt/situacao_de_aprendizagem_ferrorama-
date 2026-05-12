@@ -1,23 +1,25 @@
-const form = document.querySelector("form");
+const form = document.getElementById("loginForm");
+const mensagem = document.getElementById("mensagem");
 
 form.addEventListener("submit", function (event) {
 
     event.preventDefault();
 
-    const nome = document.getElementById("nome").value;
-    const cargo = document.getElementById("cargo").value;
-    const email = document.getElementById("email").value;
-    const telefone = document.getElementById("telefone").value;
+    const email = document.getElementById("email").value.trim();
+    const senha = document.getElementById("senha").value.trim();
 
-    const formularioValido = validarFormulario(
-        nome,
-        cargo,
-        email,
-        telefone
-    );
+    const resultado = validarLogin(email, senha);
 
-    if (formularioValido) {
-        alert("Funcionário cadastrado com sucesso!");
-        form.reset();
+    if (resultado === "sucesso") {
+
+        mensagem.textContent = "Login realizado com sucesso.";
+        mensagem.style.color = "lightgreen";
+
+        window.location.href = "tela-geral-home.html";
+
+    } else {
+
+        mensagem.textContent = resultado;
+        mensagem.style.color = "red";
     }
 });

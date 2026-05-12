@@ -58,3 +58,59 @@ body {
 #mensagem {
   color: white;
 }
+
+.mensagem-bem-vindo {
+  padding: 20px;
+}
+
+.mensagem-admin-home {
+  color: #2d5cff;
+  font-weight: 700;
+}
+
+.pergunta-mensagem-bem-vindo {
+  font-size: 1.5rem;
+}
+
+.botaos-home button {
+  width: 320px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding-left: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.titulo-botao-home {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.descricao-botao-home {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.botaos-home ion-icon {
+  font-size: 1.8rem;
+  min-width: 35px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+
+
+
+
