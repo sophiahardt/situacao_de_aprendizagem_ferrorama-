@@ -59,7 +59,38 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title text-center mb-4">Cadastrar novo sensor</h2>
-                        
+                        <form>
+                            <div class="mb-3">
+                                <label for="nomeSensor" class="form-label">Nome do Sensor</label>
+                                <input type="text" class="form-control" id="nomeSensor"
+                                    placeholder="Informe o nome do sensor">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tipoSensor" class="form-label">
+                                    Tipo de Sensor
+                                </label>
+
+                                <select class="form-select select-menor" id="tipoSensor">
+
+                                    <option selected disabled>
+                                        Selecione o tipo de dado coletado
+                                    </option>
+                                    <option>
+                                        Temperatura
+                                    </option>
+                                    <option>
+                                        Velocidade
+                                    </option>
+                                    <option>
+                                        Falha
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="localizacaoSensor" class="form-label">Localização do Sensor</label>
+                                <input type="text" class="form-control" id="localizacaoSensor"
+                                    placeholder="Informe a localização do sensor nos trilhos ou na locomotiva">
+                            </div>
                             <button type="submit" class="btn btn-primary">Cadastrar Sensor</button>
                         </form>
                     </div>
