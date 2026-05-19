@@ -17,33 +17,41 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Dashboard</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sensores</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Trens</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Rotas</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Funcionários</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Relatórios</a>
                     </li>
                 </ul>
+
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Admin João
                         </a>
+                        
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Sair</a></li>
                         </ul>
@@ -52,19 +60,24 @@
             </div>
         </div>
     </nav>
+
     <title>Cadastro de Sensor</title>
+
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
+
                         <h2 class="card-title text-center mb-4">Cadastrar novo sensor</h2>
+
                         <form>
                             <div class="mb-3">
                                 <label for="nomeSensor" class="form-label">Nome do Sensor</label>
                                 <input type="text" class="form-control" id="nomeSensor"
                                     placeholder="Informe o nome do sensor">
                             </div>
+
                             <div class="mb-3">
                                 <label for="tipoSensor" class="form-label">
                                     Tipo de Sensor
@@ -75,23 +88,38 @@
                                     <option selected disabled>
                                         Selecione o tipo de dado coletado
                                     </option>
+
                                     <option>
                                         Temperatura
                                     </option>
+
                                     <option>
                                         Velocidade
                                     </option>
+
                                     <option>
                                         Falha
                                     </option>
                                 </select>
                             </div>
+
                             <div class="mb-3">
                                 <label for="localizacaoSensor" class="form-label">Localização do Sensor</label>
                                 <input type="text" class="form-control" id="localizacaoSensor"
                                     placeholder="Informe a localização do sensor nos trilhos ou na locomotiva">
                             </div>
-                            <button type="submit" class="btn btn-primary">Cadastrar Sensor</button>
+
+                            <div class="d-flex gap-3 mt-5">
+
+                                <button type="submit" class="btn btn-primary btn-sensor">
+                                    <ion-icon name="save-outline"></ion-icon>
+                                    Cadastrar Sensor
+                                </button>
+
+                                <button type="button" class="btn btn-light btn-cancelar">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                    Cancelar
+                                </button>
                         </form>
                     </div>
                 </div>
