@@ -22,4 +22,5 @@ form.addEventListener("submit", function (event) {
         mensagem.textContent = resultado;
         mensagem.style.color = "red";
     }
+    window.location.href = "tela-geral-home.html";
 });

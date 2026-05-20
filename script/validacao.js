@@ -36,3 +36,4 @@ function validarFormulario(nome, cargo, email, telefone) {
 
     return true;
 }
+window.location.href = "tela-geral-home.html";
