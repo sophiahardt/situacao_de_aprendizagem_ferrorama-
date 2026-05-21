@@ -10,6 +10,8 @@ form.addEventListener("submit", function (event) {
 
     const resultado = validarLogin(email, senha);
 
+    console.log(resultado);
+
     if (resultado === "sucesso") {
 
         mensagem.textContent = "Login realizado com sucesso.";
@@ -22,5 +24,4 @@ form.addEventListener("submit", function (event) {
         mensagem.textContent = resultado;
         mensagem.style.color = "red";
     }
-    window.location.href = "tela-geral-home.html";
 });
