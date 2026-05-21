@@ -18,12 +18,13 @@ body {
 
 .fundo-tela-login,
 .fundo {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../assets/img/trem.jpg");
+  background-image: url("..assets/img/fundotela.jpg");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 .painel {
