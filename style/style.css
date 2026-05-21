@@ -16,14 +16,14 @@ body {
   min-height: 100vh;
 }
 
-.fundo-tela-login,
-.fundo {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../assets/img/trem.jpg");
+.fundo-tela-login{
+  background-image: url("../assets/img/imagemfundo.png");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 .painel {
